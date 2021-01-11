@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale1.0, minimum-scale=1.0">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="indexMGT.html">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>
+                    <a href="#">Register</a>
+                </li>
+                <li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="Image">
+        <img src="https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg?width=2119&height=1195&fit=crop&format=pjpg&auto=webp"
+            alt="Hotel image">
+    </div>
+
+
+    <div>
+        <h1 class="lead"><span>A home</span> <br> away from home! <br><br> <i> At Hotel Liberia you find all the services necessary to make you stay a comfortable and memeorable stay, where you will enjoy all Hotel facilities such as Pool, Parking Service Restaurants, 24h security for your convenience.. <br> </i>  </h1>
+    </div>
+
+    <div class="second">
+
+        <img src="https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768"
+            alt="img 1">
+
+        <img src="https://cf.bstatic.com/images/hotel/max1024x768/681/68184730.jpg" alt="img 1">
+
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/9b/5f/43/king-deluxe-room-with.jpg" alt="img 1">
+
+    </div>
+
+    <button type="button" class="btn">Book Now!</button>
+
+    <br><br>
+
+
+
+    <div class="third">
+        <div class="form">
+
+            <form>
+                <h3>Booking & Details</h3>
+
+                <LABEL>First name: </LABEL>
+                <INPUT type="text"><BR> <br>
+                <LABEL>Last name: </LABEL>
+                <INPUT type="text"><BR><br>
+                <LABEL>email: </LABEL>
+                <INPUT type="text" id="email"><BR><br>
+
+                <INPUT type="radio" name="sex" value="Male"> Male<BR>
+                <INPUT type="radio" name="sex" value="Female"> Female<BR>
+
+                <INPUT type="submit" value="Send"> <INPUT type="reset">
+
+            </form>
+
+        </div>
+
+        <h1 class="hotel">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A-yYTkfrHR0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </h1>
+
+    </div>
+
+
+
+    <br><br>
+
+    <footer>
+        <h3>Hotel Liberia</h3>
+    </footer>
+
+    <style>
+        .video{
+            float: right;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: rgb(102, 74, 74);
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+
+            float: left;
+        }
+        
+
+        a {
+            display: block;
+            padding: 14px 16px;
+            color: white;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        li:hover {
+            background-color: brown;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .second {
+            width: 20%;
+            margin-left: 200px;
+            display: flex;
+
+        }
+
+        .second img {
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .btn {
+            background-color: burlywood;
+            border-radius: 11px;
+            padding: 15px;
+            border: none;
+            color: white;
+            text-align: center;
+            margin-left: 570px;
+        }
+
+        span {
+            text-transform: uppercase;
+        }
+
+        .lead {
+            margin: 30px;
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .third {
+            height: 400px;
+            background-color: rgb(102, 74, 74);
+            padding: 30px;
+        }
+  
+
+        .form{
+            position: absolute;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: burlywood;
+            border-radius:30px;
+            max-width: 30%;
+            margin: 30px;
+            padding: 30px;
+        } 
+        
+        .hotel{
+            float: right;
+            margin-top: 70px;
+            max-width: 50%;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 55px;
+        }
+        footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+          }
+    </style>
+</body>
+</html>
